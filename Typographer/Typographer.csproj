@@ -92,5 +92,11 @@
   <ItemGroup>
     <None Include="Resources\pen.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Typographer.Tests\Typographer.Tests.csproj">
+      <Project>{bdba66fc-227a-4249-ab92-867713090444}</Project>
+      <Name>Typographer.Tests</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
