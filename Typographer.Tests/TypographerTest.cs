@@ -6,11 +6,6 @@ namespace Typographer.Tests
     [TestClass]
     public class TypographerTest
     {
-        public string CurrentText { get; private set; }
-        public TypographerTest(string text)
-        {
-            CurrentText = text;
-        }
 
         [TestMethod]
         public void RemoveDoubleSpaceTest()
